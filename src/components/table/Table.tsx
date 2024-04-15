@@ -15,7 +15,6 @@ export const Table = () => {
   const { notify } = useToastify();
 
   const [write, setWrite] = useState<Boolean>(false);
-  const [edit, setEdit] = useState<Boolean>(false);
 
   const [par_a, setPar_a] = useState<number>(0);
   const [par_b, setPar_b] = useState<number>(0);
